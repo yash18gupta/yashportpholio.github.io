@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+  }
+header{
+    background-color: rgb(245, 203, 169);
+    min-height: 70px;
+    width:100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    align-items: center;
+    
+}
+.logo{
+    padding-left: 20px;
+}
+header ul{
+    display: flex;
+    padding-right: 20px;
+}
+header ul li a{
+    display: block;
+    padding: 3px 22px;
+}
+.item:hover{
+    background-color: rgb(226, 103, 103);
+    
+}
+main{
+    background-color: #fdf2e9;
+    min-height: 640px;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+img{
+    padding-left: 100px;
+    
+}
+.box2 p{
+    margin: 40px 10px 20px 10px;
+}
+.box2 :first-child{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.box2 :last-child{
+    font-size: 1.5rem;
+}
+.box1{
+    flex: 1.5;
+}
+.box2{
+    flex: 2;
+}
+.mybutton{
+    display: inline-block;
+    padding: 11px 15px;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.mybutton:hover{
+    background-color: aqua;
+    transition-duration: 500ms;
+}
+.myhobby{
+    background-color: rgba(241, 171, 78, 0.938);
+    min-height: 640px;
+    text-align: center;
+}
+.myhobby .mybutton{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* .myhobby p{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: rgb(55, 1, 105);
+    padding-top: 70px;
+    margin-bottom: 100px;
+} */
+.cards{
+    display: flex;
+}
+.cards h2{
+    padding-top: 30px;
+    font-size: 2rem;
+}
+.card1{
+    width: 33%;
+}
+.card2{
+    width: 33%;
+}
+.card3{
+    width: 33%;
+}
+.skills{
+    background-color: rgba(187, 162, 130, 0.938);
+    min-height: 500px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 600px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.skillbar {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    
+}
+@keyframes progress-animation-html{
+    0% {width: 0%;}
+    80% {width: 80%;}
+}
+@keyframes progress-animation-css{
+    0% {width: 0%;}
+    60% {width: 60%;}
+}
+@keyframes progress-animation-javascript{
+    0% {width: 0%;}
+    25% {width: 25%;}
+}
+@keyframes progress-animation-pr{
+    0% {width: 0%;}
+    75% {width: 75%;}
+}
+.skills p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.html {
+    width: 80%;
+    animation: progress-animation-html 2s forwards;
+}
+
+.css {
+    width: 60%;
+    animation: progress-animation-css 2s forwards;
+}
+.js{
+    width: 25%;
+    animation: progress-animation-javascript 2s forwards;
+}
+.pr {
+    width: 75%;
+    animation: progress-animation-pr 2s forwards;
+}
+
+footer{
+    background-color: rgb(228, 91, 91);
+    min-height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+a{
+    text-decoration: none;
+}
